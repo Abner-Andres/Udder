@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         //
     }
-
+    override func viewDidDisappear(_ animated: Bool) {
+        // Here you add whatever action you need to be done when the view dissapears
+    }
 }
 
